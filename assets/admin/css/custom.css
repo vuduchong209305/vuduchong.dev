@@ -1,0 +1,68 @@
+@font-face {
+	font-family: UTM-Avo;
+	src: url('../fonts/UTM-Avo.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;  
+}
+
+@font-face {
+	font-family: Roboto-Regular;
+	src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;  
+}
+
+
+h1, h2, h3, h4, h5, h6, label, p, input, table, a, ul, button {
+	font-family: Roboto-Regular !important;
+}
+
+.error {color: red; font-weight: bold; font-size: 18px;}
+
+.login-layout {background-image: url(../images/RZR_Space_1920x1080.png); background-size: cover;}
+
+.icon-remove {cursor: pointer;}
+
+.btn_upload_image {margin: 0 35px;}
+
+.add, .add:hover {color: white; text-decoration: none;}
+
+.image_view {width: 100px;}
+
+.img_social {width: 50px;}
+
+.text-alert {margin: 0; font-style: italic; font-size: 14px;}
+
+.admin {font-weight: bold; color:red;}
+
+.mod {font-weight: bold; color:green;}
+
+.action-item {border-bottom: 1px solid lightgrey; margin-left:20px!important;}
+
+.module_name {width:250px; text-align: left!important}
+
+.view_per {width:630px; word-wrap: break-word;}
+
+.modal-header {padding:5px 10px;}
+
+.modal-title {line-height: 2; font-size: 16px;}
+
+.modal-footer {padding:7px 10px 10px;}
+
+.modal-header .close {margin-top: 0;}
+
+.modal-body {position: relative;padding: 5px 10px;}
+
+.profile-info-name {width: 150px;}
+
+.banned {text-decoration: line-through; font-weight: bold}
+
+#datetime {color: white;}
+
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+
+.ui-state-default {margin-bottom: 1%;}
+
+.link-input {width: 50%;}
+
+.social-group {margin: 0; padding: 1% 0;}
